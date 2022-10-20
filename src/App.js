@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import SignUp from './components/pages/SignUp';
 import Products from './components/pages/Products';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/services' exact element={<Services/>}/>
           <Route path='/sign-up' exact element={<SignUp/>}/>
         </Routes>
+        <Footer />
       </Router>
     </>
   );
